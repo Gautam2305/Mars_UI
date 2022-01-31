@@ -1,0 +1,25 @@
+:root{
+    --st-primary-one: #0fbcf9;
+    --st-primary-two: #1B9CFC;
+    --st-primary-three: #3B3B98;
+    --st-secondary-one: #182C61;
+    --st-secondary-two: #ec0872;
+    --st-secondary-three: #FAF9F6;
+    /* --st-secondary-four: #3F00FF;
+    --st-secondary-five: #301934; */
+    --st-background-grey: hsl(280, 5%, 88%);
+    --st-span-text: hsl(348, 100%, 52%);
+    --st-success-bg: hsl(148, 54%, 60%);
+    --st-green: hsl(147, 54%, 12%);
+    --st-danger-bg: hsl(0, 100%, 68%);
+    --st-red: hsl(0, 100%, 36%);
+    --st-warning-bg: hsl(22, 85%, 72%);
+    --st-orange: hsl(22, 85%, 48%);
+    --st-brown: hsl(30, 100%, 29%);
+    --st-black: hsl(0, 0%, 0%);
+    --st-white: hsl(0, 0%, 100%);
+    --st-header-text: 'Noto Sans', sans-serif;
+    --st-sub-header-text: 'Work Sans', sans-serif;
+    --st-body-text: 'Raleway', sans-serif;
+    --st-special-text: 'Satisfy', cursive;
+}

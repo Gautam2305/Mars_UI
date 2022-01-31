@@ -1,0 +1,68 @@
+@import 'Stylesheet/CSS/variables.css';
+@import 'Stylesheet/CSS/typography.css';
+@import 'Stylesheet/CSS/reset.css';
+
+body{
+    display: grid;
+    grid-template-columns: 0.80fr 1fr;
+}
+/* sidebar */
+.land-heading{
+    background-color: var(--st-secondary-one);
+    color: var(--st-primary-one);
+    padding: 1rem;
+}
+aside{
+    background-color: var(--st-secondary-three);
+    height: 100%;
+}
+.land-intro{
+    color: var(--st-secondary-five);
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.land-text{
+    color: var(--st-secondary-five);
+    padding: 0.5rem;
+}
+.social-media{
+    color: var(--st-secondary-one);
+    padding: 0.5rem;
+    text-align: center;
+}
+.fab{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: var(--st-primary-two);
+}
+.get-started-btn{
+    background-color:var(--st-secondary-two);
+    color: var(--st-secondary-three);
+    margin: 1rem;
+    padding: 0.75rem;
+    font-family: var(--st-special-text);
+    font-size: 1.25rem;
+    border:none;
+    border-radius: 0.25rem;
+}
+.get-started-btn:hover{
+    box-shadow: 0 0 5px var(--st-secondary-two), 0 0 20px var(--st-secondary-two), 0 0 40px var(--st-secondary-two);
+}
+
+/* main */
+main{
+    background-color: var(--st-primary-two);
+    background-image: linear-gradient(45deg, var(--st-primary-three), var(--st-primary-one));
+}
+.avatar{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+}
+.main-text{
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+    color: var(--st-secondary-three);
+}
