@@ -36,18 +36,24 @@ aside{
     padding: 0.5rem;
     color: var(--st-primary-two);
 }
-.get-started-btn{
-    background-color:var(--st-secondary-two);
-    color: var(--st-secondary-three);
+.btn{
     margin: 1rem;
     padding: 0.75rem;
     font-family: var(--st-special-text);
     font-size: 1.25rem;
-    border:none;
     border-radius: 0.25rem;
+}
+.get-started-btn{
+    background-color:var(--st-secondary-two);
+    color: var(--st-secondary-three);
+    border:none;
 }
 .get-started-btn:hover{
     box-shadow: 0 0 5px var(--st-secondary-two), 0 0 20px var(--st-secondary-two), 0 0 40px var(--st-secondary-two);
+}
+.docu-btn{
+    border: 3px solid var(--st-secondary-two);
+    color: var(--st-secondary-two);
 }
 
 /* main */
