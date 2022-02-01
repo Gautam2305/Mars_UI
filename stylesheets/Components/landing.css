@@ -11,6 +11,7 @@ body{
     background-color: var(--st-secondary-one);
     color: var(--st-primary-one);
     padding: 1rem;
+    background-image: linear-gradient(120deg, var(--st-primary-three), var(--st-primary-three));
 }
 aside{
     background-color: var(--st-secondary-three);
@@ -52,7 +53,7 @@ aside{
 /* main */
 main{
     background-color: var(--st-primary-two);
-    background-image: linear-gradient(45deg, var(--st-primary-three), var(--st-primary-one));
+    background-image: linear-gradient(120deg, var(--st-primary-three), var(--st-primary-one));
 }
 .avatar{
     border-radius: 50%;
@@ -65,4 +66,15 @@ main{
     text-align: center;
     margin: auto;
     color: var(--st-secondary-three);
+}
+ul{
+    margin: auto;
+    color: var(--st-secondary-three);
+    font-family: var(--st-header-text);
+    text-align: center;
+    list-style-type: none;
+}
+.list-header{
+    font-family: var(--st-special-text);
+    margin-top: 1rem;
 }
