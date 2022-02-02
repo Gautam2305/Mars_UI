@@ -1,0 +1,94 @@
+@import 'Stylesheet/CSS/variables.css';
+@import 'Stylesheet/CSS/typography.css';
+@import 'Stylesheet/CSS/reset.css';
+
+body{
+    display: grid;
+    grid-template-columns: 0.80fr 1fr;
+}
+/* sidebar */
+.name-para{
+    font-family: var(--st-special-text);
+    padding: 0.5rem;
+    margin: auto;
+}
+.land-heading{
+    background-color: var(--st-secondary-one);
+    color: var(--st-primary-one);
+    padding: 1rem;
+    background-image: linear-gradient(120deg, var(--st-primary-three), var(--st-primary-three));
+}
+aside{
+    background-color: var(--st-secondary-three);
+    height: 100%;
+}
+.land-intro{
+    color: var(--st-secondary-five);
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.land-text{
+    color: var(--st-secondary-five);
+    padding: 0.5rem;
+}
+.social-media{
+    color: var(--st-secondary-one);
+    padding: 0.5rem;
+    text-align: center;
+}
+.fab{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: var(--st-primary-two);
+}
+.btn{
+    margin: 1rem;
+    padding: 0.75rem;
+    font-family: var(--st-special-text);
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+}
+.get-started-btn{
+    background-color:var(--st-secondary-two);
+    color: var(--st-secondary-three);
+    border:none;
+}
+.get-started-btn:hover{
+    box-shadow: 0 0 5px var(--st-secondary-two), 0 0 20px var(--st-secondary-two), 0 0 40px var(--st-secondary-two);
+}
+.docu-btn{
+    border: 3px solid var(--st-secondary-two);
+    color: var(--st-secondary-two);
+}
+.docu-btn:hover{
+    box-shadow: 0px 0px 10px var(--st-secondary-two);
+}
+
+/* main */
+main{
+    background-color: var(--st-primary-two);
+    background-image: linear-gradient(120deg, var(--st-primary-three), var(--st-primary-one));
+}
+.avatar{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+}
+.main-text{
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+    color: var(--st-secondary-three);
+}
+ul{
+    margin: auto;
+    color: var(--st-secondary-three);
+    font-family: var(--st-header-text);
+    text-align: center;
+    list-style-type: none;
+}
+.list-header{
+    font-family: var(--st-special-text);
+    margin-top: 1rem;
+}
