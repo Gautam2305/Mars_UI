@@ -1,5 +1,4 @@
 .alert-box{
-    display: block;
     border-radius: 0.3rem;
     padding: 0.75rem;
     font-size: 1rem;
@@ -7,8 +6,12 @@
     position: relative;
     width: 75%;
     box-sizing: border-box;
-    background-color: red;
     font-family: var(--st-header-box);
+}
+.alert-text{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 .alert-primary{
     background-color: var(--st-light-blue);
@@ -31,7 +34,8 @@
     background-color: var(--st-warning-bg);
     color: var(--st-orange);
 }
-.fa-times{
-    float: right;
-    margin-top: 0.2rem;
+.alert-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
