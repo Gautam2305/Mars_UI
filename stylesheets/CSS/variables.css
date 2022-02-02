@@ -6,11 +6,14 @@
     --st-secondary-two: #ec0872;
     --st-secondary-three: #FAF9F6;
     --st-background-grey: #cbd5e1;
+    --st-dark-grey: #94a3b8;
+    --st-light-blue: #78d3fa;
     --st-span-text: hsl(348, 100%, 52%);
     --st-success-bg: hsl(148, 54%, 60%);
+    --st-mid-green: #33d46e;
     --st-green: hsl(147, 54%, 12%);
-    --st-danger-bg: hsl(0, 100%, 68%);
-    --st-red: hsl(0, 100%, 36%);
+    --st-danger-bg: hsl(0, 97%, 69%);
+    --st-red: hsla(0, 99%, 29%, 0.966);
     --st-warning-bg: hsl(22, 85%, 72%);
     --st-orange: hsl(22, 85%, 48%);
     --st-brown: hsl(30, 100%, 29%);
