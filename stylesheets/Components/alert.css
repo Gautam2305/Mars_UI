@@ -1,0 +1,37 @@
+.alert-box{
+    display: block;
+    border-radius: 0.3rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin: 1rem;
+    position: relative;
+    width: 75%;
+    box-sizing: border-box;
+    background-color: red;
+    font-family: var(--st-header-box);
+}
+.alert-primary{
+    background-color: var(--st-light-blue);
+    border: 3px solid var(--st-primary-one);
+    color: var(--st-secondary-one);
+}
+.alert-secondary{
+    background-color: var(--st-background-grey);
+    border: 3px solid var(--st-dark-grey);
+}
+.alert-success{
+    background-color: var(--st-success-bg);
+    color: var(--st-green);
+}
+.alert-danger{
+    background-color: var(--st-danger-bg);
+    color: var(--st-red);
+}
+.alert-warning{
+    background-color: var(--st-warning-bg);
+    color: var(--st-orange);
+}
+.fa-times{
+    float: right;
+    margin-top: 0.2rem;
+}
