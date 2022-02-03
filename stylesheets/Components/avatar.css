@@ -8,17 +8,14 @@ body{
 .avatar-lg-size{
     width: 10rem;
     height: 10rem;
-    font-size: 3rem;
 }
 .avatar-md-size{
     width: 6.25rem;
     height: 6.25rem;
-    font-size: 2rem;
 }
 .avatar-sm-size{
     width: 3rem;
     height: 3rem;
-    font-size: 1rem;
 }
 
 
