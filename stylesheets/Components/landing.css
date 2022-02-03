@@ -44,8 +44,6 @@ aside{
 .btn{
     margin: 1rem;
     padding: 0.75rem;
-    font-family: var(--st-special-text);
-    font-size: 1.25rem;
     border-radius: 0.25rem;
 }
 .get-started-btn{
