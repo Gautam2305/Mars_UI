@@ -16,7 +16,7 @@
     color: var(--st-secondary-two);
     border-radius: 0.3rem;
     padding: 0.4rem 1rem;
-    margin: 1.25rem 0rem;
+    margin: 1.25rem 0rem 1.25rem 0.5rem;
 }
 .link-text{
     text-decoration-color: var(--st-secondary-two);
@@ -48,6 +48,6 @@
     font-weight: 700;
     border-radius: 50%;
     position: absolute;
-    left: 22rem;
-    top: 28rem;
+    left: 65rem;
+    top: 24rem;
 }
