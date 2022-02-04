@@ -1,0 +1,15 @@
+body{
+    display: block;
+    max-width: 50%;
+    margin: auto;
+}
+.img-landscape{
+    max-width: 100%;
+    height: auto;
+}
+.img-round{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+}
