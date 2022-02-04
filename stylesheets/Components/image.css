@@ -3,7 +3,7 @@ body{
     max-width: 50%;
     margin: auto;
 }
-.img-landscape{
+.img-responsive{
     max-width: 100%;
     height: auto;
 }
