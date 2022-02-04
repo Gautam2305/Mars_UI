@@ -11,22 +11,27 @@
 <body>
     <div>
         <div>
-            <label for="user-name-input" class="user-name-label">Username</label>
+            <label for="user-name-input" class="user-name-label"><p><strong>Username</strong></p></label>
         </div>
         <div>
             <input type="text" id="user-name-input"/>
         </div>
-        <i class="far fa-check-circle"></i> This username is correct.
+        <p class="success-text"><i class="far fa-check-circle"></i> This username is correct.</p>
     </div>
     
     <div>
         <div>
-            <label for="password-input" class="password-label">Password</label>
+            <label for="password-input" class="password-label"><p><strong>Password</strong></p></label>
         </div>
-        <div>
+    <div>
             <input type="password" id="password-input"/>
-        </div>
-        <i class="fas fa-exclamation-circle"></i> This password is incorrect.
+    </div>
+        <p class="fail-text"><i class="fas fa-exclamation-circle"></i> 
+        This password is incorrect.</p>
+    </div>
+    <div>
+        <label for="basic-input"><p> INPUT TEXT : </p></label>
+        <input type="text" id="basic-input" placeholder="Search..."/>
     </div>
 </body>
 </html>
