@@ -1,3 +1,4 @@
+
 @import "stylesheets/CSS/reset.css";
 @import "stylesheets/CSS/typography.css";
 @import "stylesheets/CSS/variables.css";
@@ -6,5 +7,4 @@
 @import "stylesheets/Components/avatar.css";
 @import "stylesheets/Components/button.css";
 @import "stylesheets/Components/badge.css";
-@import "stylesheets/Components/image.css";
-@import "stylesheets/Components/input.css";
+
