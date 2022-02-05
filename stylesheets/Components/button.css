@@ -1,0 +1,53 @@
+.btn{
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    padding: 0.5rem;
+}
+.btn-solid-primary{
+    background-color: var(--st-secondary-two);
+    color: var(--st-white);
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin: 1.25rem 0rem 1.25rem 0.5rem;
+}
+.btn-outline-primary{
+    border: 3px solid var(--st-secondary-two);
+    color: var(--st-secondary-two);
+    border-radius: 0.3rem;
+    padding: 0.4rem 1rem;
+    margin: 1.25rem 0rem 1.25rem 0.5rem;
+}
+.link-text{
+    text-decoration-color: var(--st-secondary-two);
+    color: var(--st-black);
+    padding: 0.5rem;
+}
+.link-text-primary:hover{
+    color: var(--st-secondary-two);
+}
+.btn-icon-primary{
+    color: var(--st-secondary-two);
+}
+.btn-icon-text-primary{
+    background-color: var(--st-secondary-two);
+    color: var(--st-white);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+.floating-action-button{
+    position: relative;
+}
+.btn-floating{
+    text-decoration: none;
+    display: block;
+    padding: 0.1rem 1rem;
+    background-color: var(--st-secondary-two);
+    color: var(--st-white);
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 50%;
+    position: absolute;
+    left: 65rem;
+    top: 24rem;
+}
