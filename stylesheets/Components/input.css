@@ -1,0 +1,13 @@
+body{
+    display: block;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+}
+.success-text{
+    color: var(--st-mid-green);
+}
+.fail-text{
+    color: var(--st-span-text);
+}
