@@ -1,0 +1,26 @@
+.list-basic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stacked-notify{
+    width: 25rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.stacked-list{
+    border: 2px solid black;
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+.stacked-img{
+    width: 5rem;
+    height: auto;
+    object-fit: contain;
+}
+.stacked-text{
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+}
