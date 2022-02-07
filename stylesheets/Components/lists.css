@@ -9,7 +9,7 @@
     justify-content: space-evenly;
 }
 .stacked-list{
-    border: 2px solid var(--st-black);
+    border: 2px solid black;
     list-style-type: none;
     display: flex;
     margin: 10px;
