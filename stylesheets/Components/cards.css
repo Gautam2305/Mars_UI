@@ -68,8 +68,8 @@ body{
 }
 .close-btn{
     position: absolute;
-    bottom: 14.5rem;
-    left: 9.5rem;
+    bottom: 15rem;
+    left: 10rem;
     color: var(--st-white);
 }
 .image-horz{
