@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.card-container{
+    margin: auto;
+    max-width: 12rem;
+    min-height: 9rem;
+    line-height: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    box-shadow: 5px 10px 15px var(--st-dark-grey);
+}
+.card-container-horz{
+    margin: auto;
+    width: 20rem;
+    line-height: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    box-shadow: 5px 10px 15px var(--st-dark-grey);
+}
+.image{
+    max-width: 100%;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+.btn-icon-primary{
+    color: var(--st-secondary-two);
+}
+.wishlist-btn{
+    float: right;
+}
+.btn{
+    margin: auto;
+    padding: 10px;
+}
+.btn-solid-primary{
+    padding: 1rem;
+}
+.btn-outline-primary{
+    float: right;
+    margin-right: 2px;
+}
+.status-badge-number{
+    position: absolute;
+    padding: 1rem;
+    border-radius: 50%;
+    left: 1px;
+    font-size: 12px;
+    font-family: var(--st-header-text);
+    background-color: var(--st-secondary-two);
+    border: none;
+} 
+.heading-overlay, .btn-horz{
+    position: relative;
+}
+.text-overlay {
+    position: absolute;
+    bottom: 1rem;
+    color: var(--st-white);
+}
+.product-info{
+    position: absolute;
+    bottom: 5px;
+    color: var(--st-white);
+}
+.fa-times{
+    position: absolute;
+    bottom: 14.5rem;
+    left: 9.5rem;
+    color: var(--st-white);
+}
+.image-horz{
+    width: 4rem;
+    height: 5rem;
+    object-fit: contain;
+}
+.btn-solid-horz{
+    position: absolute;
+    left: 10rem;
+    bottom: 5rem;
+}
+.btn-outline-horz{
+    position: absolute;
+    left: 16.5rem;
+    bottom: 5rem;
+}
