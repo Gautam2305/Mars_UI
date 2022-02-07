@@ -1,4 +1,21 @@
-.avatar{
-    display: grid;
-    
+body{
+    display:flex;
 }
+.avatar{
+    border-radius: 50%;
+    border: 2px solid var(--st-white);
+}
+.avatar-lg{
+    width: 10rem;
+    height: 10rem;
+}
+.avatar-md{
+    width: 6.25rem;
+    height: 6.25rem;
+}
+.avatar-sm{
+    width: 3rem;
+    height: 3rem;
+}
+
+
