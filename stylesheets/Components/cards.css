@@ -63,14 +63,14 @@ body{
 }
 .product-info{
     position: absolute;
-    bottom: 5px;
     color: var(--st-white);
+    bottom: 5px;
 }
 .fa-times{
     position: absolute;
+    color: var(--st-white);
     bottom: 14.5rem;
     left: 9.5rem;
-    color: var(--st-white);
 }
 .image-horz{
     width: 4rem;
