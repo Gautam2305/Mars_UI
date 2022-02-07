@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/0a707a45d9.js" crossorigin="anonymous"></script>
+    <title>Inputs</title>
+</head>
+<body>
+    <div>
+        <div>
+            <label for="user-name-input" class="user-name-label"><p><strong>Username</strong></p></label>
+        </div>
+        <div>
+            <input type="text" id="user-name-input"/>
+        </div>
+        <p class="success-text"><i class="far fa-check-circle"></i> This username is correct.</p>
+    </div>
+    
+    <div>
+        <div>
+            <label for="password-input" class="password-label"><p><strong>Password</strong></p></label>
+        </div>
+    <div>
+            <input type="password" id="password-input"/>
+    </div>
+        <p class="fail-text"><i class="fas fa-exclamation-circle"></i> 
+        This password is incorrect.</p>
+    </div>
+    <div>
+        <label for="basic-input"><p> INPUT TEXT : </p></label>
+        <input type="text" id="basic-input" placeholder="Search..."/>
+    </div>
+</body>
+</html>

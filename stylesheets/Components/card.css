@@ -66,12 +66,11 @@ body{
     bottom: 5px;
     color: var(--st-white);
 }
-.close-btn{
+.fa-times{
     position: absolute;
     bottom: 14.5rem;
     left: 9.5rem;
     color: var(--st-white);
-    bottom: 5px;
 }
 .image-horz{
     width: 4rem;
