@@ -1,8 +1,6 @@
 .nav-header{
     display: flex;
-    flex-direction: row;
     background-color: var(--st-secondary-one);
-    max-width: 100%;
     padding: 0.5rem;
 }
 .nav-icon{
@@ -10,7 +8,7 @@
     padding-left: 10px;
     color: var(--st-secondary-three);
 }
-.nav-extra-div{
+.nav-items-container{
     margin-left: auto;
 }
 .btn-nav-home{
