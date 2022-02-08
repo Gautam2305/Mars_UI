@@ -1,0 +1,20 @@
+.nav-header{
+    display: flex;
+    background-color: var(--st-secondary-one);
+    padding: 0.5rem;
+}
+.nav-icon{
+    font-size: 1.75rem;
+    padding-left: 10px;
+    color: var(--st-secondary-three);
+}
+.nav-items-container{
+    margin-left: auto;
+}
+.btn-nav-home{
+    color: var(--st-yellow);
+    margin-left: 15px;
+}
+.btn-nav-pricing, .btn-nav-faq, .btn-nav-about{
+    color: var(--st-secondary-two);
+}
