@@ -1,0 +1,13 @@
+.toast-container{
+    position: relative;
+}
+.toast{
+    background-color: var(--st-darkest-grey);
+    color: var(--st-white);
+    max-width: 60%;
+    padding: 5px 20px 5px 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: 30rem;
+    left: 4rem;
+}
