@@ -10,6 +10,7 @@ body{
     line-height: 10px;
     padding-bottom: 5px;
     padding-left: 5px;
+    margin-bottom: 2.5rem;
     box-shadow: 5px 10px 15px var(--st-dark-grey);
 }
 .card-container-horz{
@@ -38,10 +39,10 @@ body{
 }
 .btn-solid-primary{
     padding: 1rem;
+    margin: 0.25rem;
 }
 .btn-outline-primary{
-    float: right;
-    margin-right: 2px;
+    padding: 5px;
 }
 .status-badge-number{
     position: absolute;

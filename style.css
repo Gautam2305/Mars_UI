@@ -16,4 +16,8 @@
 @import "stylesheets/Components/modal.css";
 @import "stylesheets/Components/toast.css";
 @import "stylesheets/Components/grids.css";
+@import "stylesheets/Components/rating.css";
+@import "stylesheets/Components/text-utility.css";
+@import "stylesheets/Components/toast.css";
+
 @import "docs/doc.css";

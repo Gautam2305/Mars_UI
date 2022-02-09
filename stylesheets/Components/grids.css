@@ -11,8 +11,8 @@
     margin-top: 2.5rem;
     padding: 5px;
 }
-.grid-main-nav{
-    background-color: var(--st-secondary-one);
+.grid-main-nav-col{
+    background-color: var(--st-primary-two);
     padding: 5px;
     color: var(--st-secondary-three);
 }
