@@ -45,9 +45,9 @@ body{
 }
 .status-badge-number{
     position: absolute;
-    padding: 1rem;
+    padding: 0.70rem;
     border-radius: 50%;
-    left: 1px;
+    bottom: 15rem;
     font-size: 12px;
     font-family: var(--st-header-text);
     background-color: var(--st-secondary-two);
@@ -66,10 +66,10 @@ body{
     bottom: 5px;
     color: var(--st-white);
 }
-.fa-times{
+.close-btn{
     position: absolute;
-    bottom: 14.5rem;
-    left: 9.5rem;
+    bottom: 15.5rem;
+    left: 10rem;
     color: var(--st-white);
 }
 .image-horz{
@@ -86,4 +86,8 @@ body{
     position: absolute;
     left: 16.5rem;
     bottom: 5rem;
+}
+.card-new-tag{
+    position: absolute;
+    top: 2rem;
 }
