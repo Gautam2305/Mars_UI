@@ -1,0 +1,19 @@
+.modal-container{
+    max-width: 50%;
+    margin: auto;
+    background-color: var(--st-light-pink);
+    padding: 15px;
+}
+.modal-info, .modal-btn{
+    padding: 20px;
+}
+.btn-modal-solid{
+    padding: 15px;
+}
+.modal-close-container{
+    position: relative;
+}
+.modal-close-btn{
+    position: absolute;
+    right: 2px;
+}
