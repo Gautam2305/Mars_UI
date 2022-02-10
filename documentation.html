@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-light.min.css" integrity="sha512-WDk6RzwygsN9KecRHAfm9HTN87LQjqdygDmkHSJxVkVI7ErCZ8ZWxP6T8RvBujY1n2/E4Ac+bn2ChXnp5rnnHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Documentation | Mars UI</title>
+</head>
+<body>
+    <nav class="grid-main-nav">
+        <h2>Mars UI</h2>
+        <div class="nav-icons nav-icons-doc">
+            <a class="nav-icons-doc" target="_blank" href="https://github.com/Gautam2305"><i class="fab fa-github" ></i></a>
+            <a class="nav-icons-doc" target="_blank" href="https://twitter.com/Gautam_Adatra"><i class="fab fa-twitter" ></i></a>
+            <a class="nav-icons-doc" target="_blank" href="https://www.linkedin.com/in/gautam-adatra-b8465b227/" ><i class="fab fa-linkedin"></i></a>
+        </div>   
+    </nav>
+    <div class="grid-container-layout">
+        <aside class="grid-side-container">
+            <ul class="component-list">
+                <li><a class="comp-btn" href="#alerts"><h4>Alert</h4></a></li>
+                <li><a class="comp-btn" href="#avatars"><h4>Avatar</h4></a></li>
+                <li><a class="comp-btn" href="#badges"><h4>Badges</h4></a></li>
+                <li><a class="comp-btn" href="#buttons"><h4>Buttons</h4></a></li>
+                <li><a class="comp-btn" href="#cards"><h4>Cards</h4></a></li>
+                <li><a class="comp-btn" href="#grids"><h4>Grids</h4></a></li>
+                <li><a class="comp-btn" href="#images"><h4>Image</h4></a></li>
+                <li><a class="comp-btn" href="#inputs"><h4>Input</h4></a></li>
+                <li><a class="comp-btn" href="#lists"><h4>Lists</h4></a></li>
+                <li><a class="comp-btn" href="#modal"><h4>Modal</h4></a></li>
+                <li><a class="comp-btn" href="#rating"><h4>Rating</h4></a></li>
+                <li><a class="comp-btn" href="#text-utilities"><h4>Text-utilities</h4></a></li>
+                <li><a class="comp-btn" href="#toast"><h4>Toast</h4></a></li>
+        </aside>
+
+<main class="grid-main-container">
+            <!-- ALERTS -->
+            <div id="alerts">
+                <h1>Alerts</h1>
+                        <p class="body-cp-md">Alerts are used to attract user's attention for important information without interrupting the user's flow.</p>
+                        <h3>Example of Alert Bar without close button</h3>
+                        <p>Alerts are available in 5 types- success alert, error alert, warning alert, primary alert, secondary
+                            alert.<br> To use this alert just use class name <span class="primary-text-color">alert-box</span>
+                            and also add class according to alert type- <span class="primary-text-color">alert-primary,
+                                alert-secondary, alert-danger, alert-success, alert-warning</span>. (e.g.<span
+                                class="primary-text-color">class="alert-box alert-primary"</span>).<br>You can copy html part
+                            from below code snippet.</p>
+                        </ul>
+                        <div class="alert-box alert-primary">
+                            <h4 class="alert-text">A primary alert example with a text link <a href="#">Check it out!</a></h4> 
+                        </div>
+                        <div class="alert-box alert-secondary">
+                            <h4 class="alert-text"> A secondary alert example!!!</h4>
+                        </div>
+                        <div class="alert-box alert-success">
+                            <h4 class="alert-text"><i class="fas fa-check-circle"></i> A success alert example!!!</h4>
+                        </div>
+                        <div class="alert-box alert-danger">
+                            <h4 class="alert-text"><i class="fas fa-exclamation-triangle"></i>
+                             A danger alert example!!!</h4>
+                        </div>
+                        <div class="alert-box alert-warning">
+                            <h4 class="alert-text"><i class="fas fa-exclamation-triangle"></i>
+                             A warning alert example!!!</h4>
+                        </div>
+                        <!-- <img class="code-snap-img" src="docs/code-snippets-MARS-UI/alert-1.png" alt="alert code snippet"> -->
+<pre>
+    <code class="snippet">
+        <div class="alert-box alert-primary">
+            <h4 class="alert-text">A primary alert example with a text link <a href="#">Check it out!</a></h4> 
+        </div>
+        <div class="alert-box alert-secondary">
+            <h4 class="alert-text"> A secondary alert example!!!</h4>
+        </div>
+        <div class="alert-box alert-success">
+            <h4 class="alert-text"><i class="fas fa-check-circle"></i> A success alert example!!!</h4>
+        </div>
+        <div class="alert-box alert-danger">
+            <h4 class="alert-text"><i class="fas fa-exclamation-triangle"></i>
+             A danger alert example!!!</h4>
+        </div>
+        <div class="alert-box alert-warning">
+            <h4 class="alert-text"><i class="fas fa-exclamation-triangle"></i>
+             A warning alert example!!!</h4>
+        </div>                      
+    </code>
+</pre>
+                        <h3>Example of Alert Bar with close button</h3>
+                        <p>Alert can have cross icon to close the alert. Check out html code below.</p>
+                        <div class="alert-box alert-warning alert-action">
+                            <h4 class="alert-text"><i class="fas fa-exclamation-triangle"></i> A warning alert example!!!</h4>
+                             <div class="alert-close"><i class="fas fa-times"></i></div>
+                         </div>
+                         <!-- <img class="code-snap-img" src="docs/code-snippets-MARS-UI/alert-2.png" alt="alert code snippet with close button"> -->
+<pre>
+    <code class="snippet">
+        <div class="alert-box alert-warning alert-action">
+            <h4 class="alert-text"><i class="fas fa-exclamation-triangle"></i> A warning alert example!!!</h4>
+             <div class="alert-close"><i class="fas fa-times"></i></div>
+         </div>
+    </code>
+</pre>
+            </div>
+
+            <hr>
+
+            <!-- AVATARS-->
+            <div id="avatars">
+                <h1>Avatar</h1>
+                <p class="body-cp-md">Avatar can be used to show user's profile picture on profile
+                    information page, on navigation bar, in blogs grid items.</p>
+                <h3 class="h4">Example of Image Avatar</h3>
+                <p>Avatar is available in 3 different sizes. You can use image in Avatar. You need to include class
+                <span class="primary-text-color">avatar</span> and for size add class according to size <span
+                    class="primary-text-color">avatar-lg, avatar-md, avatar-sm</span>
+                (e.g. <span class="primary-text-color">class="avatar avatar-lg"</span>)<br>
+                Don't forget to add Responsive Image class names for img element.
+                </p>
+
+                <div class="avatar-img-container">
+                <img loading="lazy" class="avatar avatar-lg" src="assets/avatar-2.svg" alt="Avatar Picture"/>
+                <img loading="lazy" class="avatar avatar-md" src="assets/avatar-2.svg" alt="Avatar Picture"/>
+                <img loading="lazy" class="avatar avatar-sm" src="assets/avatar-2.svg" alt="Avatar Picture"/>
+                
+                <img loading="lazy" class="avatar avatar-lg" src="assets/avatar.svg" alt="Avatar Picture"/>
+                <img loading="lazy" class="avatar avatar-md" src="assets/avatar.svg" alt="Avatar Picture"/>
+                <img loading="lazy" class="avatar avatar-sm" src="assets/avatar.svg" alt="Avatar Picture"/>
+                </div>
+        
+            </div>
+<pre>
+    <code class="snippet">
+        <img loading="lazy" class="avatar avatar-lg" src="assets/avatar-2.svg" alt="Avatar Picture"/>
+        <img loading="lazy" class="avatar avatar-md" src="assets/avatar-2.svg" alt="Avatar Picture"/>
+        <img loading="lazy" class="avatar avatar-sm" src="assets/avatar-2.svg" alt="Avatar Picture"/>
+                
+        <img loading="lazy" class="avatar avatar-lg" src="assets/avatar.svg" alt="Avatar Picture"/>
+        <img loading="lazy" class="avatar avatar-md" src="assets/avatar.svg" alt="Avatar Picture"/>
+        <img loading="lazy" class="avatar avatar-sm" src="assets/avatar.svg" alt="Avatar Picture"/>
+    </code>
+</pre>
+            <hr>
+
+            <!-- BADGES -->
+            <div id="badges">
+                    <div class="component-intro">
+                        <h1>Badges</h1>
+                        <p class="body-cp-md">Badges are being used to display a notification count or
+                            status information</p>
+                    </div>
+    
+                    <h3>Example of Status Badge</h3>
+                    <p>We have 2 types of status badges that can be integrated with Avatars. You can show colors to show the
+                        online status of user. And to show cart or notification count, you can use number badge. Check code
+                        below to copy the html part as is.</p>
+                        <div class="badge-container">
+                            <div class="avatar avatar-md">
+                                <img class="avatar-img" src="assets/avatar-2.svg" alt="avatar">
+                                <span class="status-badge badge-md status-badge-online"></span>
+                            </div>
+                        </div>
+                        <div class="badge-container">
+                            <div class="avatar avatar-sm">
+                                <img class="avatar-img" src="assets/avatar-2.svg" alt="avatar">
+                                <span class="status-badge badge-sm status-badge-offline"></span>
+                            </div>
+                            
+<pre>
+    <code class="snippet">
+        <div class="badge-container">
+            <div class="avatar avatar-md">
+                <img class="avatar-img" src="assets/avatar-2.svg" alt="avatar">
+                <span class="status-badge badge-md status-badge-online"></span>
+            </div>
+        </div>
+        <div class="badge-container">
+            <div class="avatar avatar-sm">
+                <img class="avatar-img" src="assets/avatar-2.svg" alt="avatar">
+                <span class="status-badge badge-sm status-badge-offline"></span>
+            </div>
+        </div>
+    </code>
+</pre>
+                            
+                </div>  
+                        <h3 class="h4">Example of Icon & Button Badge</h3>
+                        <p>We have 2 types of text badges that can be integrated with text. Badge with rounded edges and square edges. Font size of badge text is in <span class="primary-text-color">em</span>. It will change as per the parent element's font-size.</p>
+                        <div class="badge-img-container">
+                            <div class="btn btn-icon-primary">
+                                <i class="fas fa-home"></i>
+                                <span class="status-badge badge-icon-home status-badge-home"></span>
+                            </div>
+                        </div>
+                        <div class="badge-img-container">
+                            <div class="btn btn-solid-primary btn-solid-doc">
+                                Badge
+                                <span class="status-badge badge-icon-button status-badge-button"></span>
+                            </div>
+                        </div>
+                    
+<pre>
+    <code class="snippet">
+        <div class="badge-img-container">
+            <div class="btn btn-icon-primary">
+                <i class="fas fa-home"></i>
+                <span class="status-badge badge-icon-home status-badge-home"></span>
+            </div>
+        </div>
+        <div class="badge-img-container">
+            <div class="btn btn-solid-primary btn-solid-doc">
+                Badge
+                <span class="status-badge badge-icon-button status-badge-button"></span>
+            </div>
+        </div>
+    </code>
+</pre>
+                </div>
+
+            <hr>
+            <!-- Buttons -->
+            <div id="buttons">
+                <h1>Buttons</h1>
+                    <p class="body-cp-md">Buttons are also called as call to action. We have range of buttons and their states. You may use <em>a</em> tag or <em>button</em> element, you need to add respective classes, and you are good to go.</p>
+                <h3>Example of Primary Button Styles</h3>
+                <p>Whenever you want your user to click on a link or button, use primary style buttons.</p>
+                <div class="primary-btn">
+                    <a class="btn btn-outline-primary" href="#"> Primary-Outline </a>
+                    <a class="btn btn-solid-primary" href="#"> Primary-Solid </a>
+                    <a class="link-text link-text-primary" href="#"> Primary-Link </a>
+                    <a class="btn btn-icon-primary" href="#"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    <a class="btn btn-icon-primary" href="#"><span><i class="far fa-heart"></i></span></a>
+                    <a class="btn btn-icon-text-primary" href="#"><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i> Add to cart </span></a>
+                    </div>
+                    <div class="floating-action-button">
+                    <a class="btn-floating" href="#"> + </a>
+                </div>
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="primary-btn">
+            <a class="btn btn-outline-primary" href="#"> Primary-Outline </a>
+            <a class="btn btn-solid-primary" href="#"> Primary-Solid </a>
+            <a class="link-text link-text-primary" href="#"> Primary-Link </a>
+            <a class="btn btn-icon-primary" href="#"><span><i class="fas fa-shopping-cart"></i></span></a>
+            <a class="btn btn-icon-primary" href="#"><span><i class="far fa-heart"></i></span></a>
+            <a class="btn btn-icon-text-primary" href="#"><span class="btn-icon-text"><i class="fas fa-shopping-cart"></i> Add to cart </span></a>
+            </div>
+            <div class="floating-action-button">
+            <a class="btn-floating" href="#"> + </a>
+        </div>
+    </code>
+</pre>
+
+            <hr>
+            <!-- Cards -->
+            <div id="cards">
+                <h1>Cards</h1>
+                    <p class="body-cp-md">Card are used to show user related data collectively, like product details.</p>
+
+                <h3>Example of Horizontal Card- Text+Image</h3>
+                <p>Card's image may have a margin or it can be full-bleed. By default card's images are full-bleed. If you want image to have margin, you can use <span class="primary-text-color">default-container</span> class.<br>Copy below code and put your desired text and image and you are good to go.</p>
+                <div class="all-card-container">
+                    <!-- CARD CONTAINER-1 -->
+                <section class="card-container">
+                    <div class="content">
+                        <img class="image" src="assets/shirt.jpg" alt="img"/>
+                        <div class="heading">
+                            <h4>
+                            <strong>Puma</strong>
+                            <span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span>
+                            </h4>
+                            <h5>White men regular cotton t-shirt.</h5>
+                        </div>
+                        <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                    </div>
+                    <div>
+                        <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                        <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    </div>
+                </section>
+                    <!-- CARD CONTAINER-2 -->
+                <section class="card-container">
+                    <div class="content">
+                        <div class="image">
+                            <img src="assets/shirt.jpg" alt="img"/><span class="status-badge badge-icon status-badge-number">NEW</span>
+                        </div>
+                    <div class="heading">
+                        <h4><strong>Puma</strong>
+                        <span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span>
+                        </h4>
+                        <h5>White men regular cotton t-shirt.</h5>
+                    </div>
+                    <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                    </div>
+                    <div>
+                        <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                        <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    </div>
+                </section>
+                    <!-- CARD CONTAINER-3 -->
+                <section class="card-container">
+                    <div class="content">
+                            <img class="image" src="assets/shirt.jpg" alt="img"/>
+                        <div class="heading-overlay">
+                            <h4 class="text-overlay">
+                            <strong>Puma</strong>
+                            </h4>
+                            <h5 class="product-info">White men regular cotton t-shirt.</h5>
+                        </div>
+                            <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                    </div>
+                    <div>
+                            <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                            <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    </div>
+                </section>
+                    <!-- CARD CONTAINER-4 -->
+                <section class="card-container">
+                    <div class="content">
+                        <div class="image">
+                            <img src="assets/shirt.jpg" alt="img"/>
+                            <span class="close-btn"><i class="fas fa-times"></i></span>
+                        </div>
+
+                    <div class="heading">
+                        <h4>
+                        <strong>Puma</strong>
+                        <span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span>
+                        <h5>White men regular cotton t-shirt.</h5>
+                        </h4>
+                    </div>
+                        <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                    </div>
+                    <div>
+                        <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                        <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    </div>
+                </section>
+                    <!-- CARD CONTAINER-5 -->
+                <section class="card-container">
+                    <div class="content">
+                        <div class="heading">
+                            <h4>
+                            <strong>Puma</strong>
+                            <span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i>
+                            </span>
+                            </h4>
+                            <h5>White men regular cotton t-shirt.</h5>
+                        </div>
+                            <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                    </div>
+                    <div>
+                            <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                            <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    </div>
+                </section>
+                    <!-- CARD CONTAINER-6 -->
+                <section class="card-container-horz">
+                    <div class="content">
+                            <img class="image-horz" src="assets/shirt.jpg" alt="img"/>
+                        <div class="heading">
+                            <h4>
+                            <strong>Puma</strong>
+                            <span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span>
+                            </h4>
+                        </div>
+                            <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+        
+                    </div>
+                    <div class="btn-horz">
+                            <a><button class="btn btn-solid-primary btn-solid-horz">Buy Now</button></a>
+                            <a class="btn btn-outline-primary btn-outline-horz"><span><i class="fas fa-shopping-cart"></i></span></a>
+                    </div>
+                </section>
+                </div>
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="all-card-container">
+        <!-- CARD CONTAINER-1 -->
+        <section class="card-container">
+            <div class="content">
+                <img class="image" src="assets/shirt.jpg" alt="img"/>
+                <div class="heading">
+                <h4><strong>Puma</strong><span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span></h4>
+                <h5>White men regular cotton t-shirt.</h5>
+                </div>
+                <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+            </div>
+            <div>
+                <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+            </div>
+        </section>
+        <!-- CARD CONTAINER-2 -->
+        <section class="card-container">
+            <div class="content">
+                <div class="image">
+                    <img src="assets/shirt.jpg" alt="img"/><span class="status-badge badge-icon status-badge-number">NEW</span>
+                </div>
+                <div class="heading">
+                    <h4><strong>Puma</strong><span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span></h4>
+                    <h5>White men regular cotton t-shirt.</h5>
+                </div>
+                    <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                </div>
+                <div>
+                    <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                    <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                </div>
+        </section>
+        <!-- CARD CONTAINER-3 -->
+        <section class="card-container">
+            <div class="content">
+                <img class="image" src="assets/shirt.jpg" alt="img"/>
+                <div class="heading-overlay">
+                    <h4 class="text-overlay"><strong>Puma</strong></h4>
+                    <h5 class="product-info">White men regular cotton t-shirt.</h5>
+                </div>
+                    <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                <div>
+                    <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                    <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                </div>
+            </div>
+        </section>
+        <!-- CARD CONTAINER-4 -->
+        <section class="card-container">
+            <div class="content">
+                <div class="image">
+                    <img src="assets/shirt.jpg" alt="img"/>
+                    <span class="close-btn"><i class="fas fa-times"></i></span>
+                </div>
+                <div class="heading">
+                    <h4><strong>Puma</strong><span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span>
+                    <h5>White men regular cotton t-shirt.</h5>
+                    </h4>
+                </div>
+                    <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+                </div>
+                <div>
+                    <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                    <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+                </div>
+        </section>
+        <!-- CARD CONTAINER-5 -->
+        <section class="card-container">
+            <div class="content">
+            <div class="heading">
+                <h4><strong>Puma</strong><span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span></h4>
+                <h5>White men regular cotton t-shirt.</h5>
+            </div>
+                <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+            </div>
+            <div>
+                <a><button class="btn btn-solid-primary">Buy Now</button></a>
+                <a class="btn btn-outline-primary"><span><i class="fas fa-shopping-cart"></i></span></a>
+            </div>
+        </section>
+        <!-- CARD CONTAINER-6 -->
+        <section class="card-container-horz">
+            <div class="content">
+            <img class="image-horz" src="assets/shirt.jpg" alt="img"/>
+            <div class="heading">
+                <h4><strong>Puma</strong><span class="btn btn-icon-primary wishlist-btn"><i class="far fa-heart"></i></span></h4>
+            </div>
+                <h4 class="item-cost"><strong><i class="fas fa-rupee-sign"></i> 1,899</strong></h4>
+            </div>
+            <div class="btn-horz">
+                <a><button class="btn btn-solid-primary btn-solid-horz">Buy Now</button></a>
+                <a class="btn btn-outline-primary btn-outline-horz"><span><i class="fas fa-shopping-cart"></i></span></a>
+            </div>
+        </section>
+        </div>
+    </code>
+</pre>
+
+            <hr>
+            <!-- grids -->
+            <div id="grids">
+                <h1>Grid Simplified</h1>
+                <p class="body-cp-md">Use grid when you want sections in view. Check below some examples of side by side cards.</p>
+
+                <h2 class="h4">Example of two column (1/2:1/2) layout</h2>
+                <p>Add <span class="primary-text-color">grid-two-col-box</span> class on wrapper div which is wrapping 2 divs</p>
+                <section class="grid-two-col-box">
+                    <aside class="grid-side-two-col">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                                 elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+                    </aside>
+                    <main class="grid-main-two-col">
+                        <nav class="grid-main-nav-col"><h2>Lorem Ipsum</h2></nav>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+            
+                        Pellentesque porta interdum erat rutrum dapibus. Nunc vel felis hendrerit, consectetur lectus vitae, mattis justo. Suspendisse egestas ut tellus vitae gravida. Curabitur cursus tellus id lobortis laoreet. Integer vulputate convallis arcu, id feugiat purus euismod a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non dolor eget est luctus pharetra a eu magna.
+                    </main>
+                </section>
+                <p class="body-cp-md">*Zoom in. Small snippet due to lorem-ipsum.</p>
+                <!-- <img class="code-snap-img" src="docs/code-snippets-MARS-UI/grid-1.png" alt="two column grid code snippet"> -->
+<pre>
+    <code class="snippet">
+        <section class="grid-two-col-box">
+            <aside class="grid-side-two-col">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                         elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+            </aside>
+            <main class="grid-main-two-col">
+                <nav class="grid-main-nav-col"><h2>Lorem Ipsum</h2></nav>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+    
+                Pellentesque porta interdum erat rutrum dapibus. Nunc vel felis hendrerit, consectetur lectus vitae, mattis justo. Suspendisse egestas ut tellus vitae gravida. Curabitur cursus tellus id lobortis laoreet. Integer vulputate convallis arcu, id feugiat purus euismod a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non dolor eget est luctus pharetra a eu magna.
+            </main>
+        </section> 
+    </code>
+</pre>
+                <h2 class="h4">Example of three column (1/3:1/3:1/3) layout</h2>
+                <p>Add <span class="primary-text-color">grid-three-col-box</span> class on wrapper div which is wrapping 3 divs</p>
+                <section class="grid-three-col-box">
+                    <aside class="grid-side-three-col">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+                    </aside>
+                    <main class="grid-main-three-col">
+                        <nav class="grid-main-nav-col"><h2>Lorem Ipsum</h2></nav>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+            
+                        Pellentesque porta interdum erat rutrum dapibus. Nunc vel felis hendrerit, consectetur lectus vitae, mattis justo. Suspendisse egestas ut tellus vitae gravida. Curabitur cursus tellus id lobortis laoreet. Integer vulputate convallis arcu, id feugiat purus euismod a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non dolor eget est luctus pharetra a eu magna.
+                    </main>
+                    <aside class="grid-side-three-col-r">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+                    </aside>
+                </section>
+            </div>
+<pre>
+    <code class="snippet">
+        <section class="grid-three-col-box">
+            <aside class="grid-side-three-col">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+            </aside>
+            <main class="grid-main-three-col">
+                <nav class="grid-main-nav-col"><h2>Lorem Ipsum</h2></nav>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+    
+                Pellentesque porta interdum erat rutrum dapibus. Nunc vel felis hendrerit, consectetur lectus vitae, mattis justo. Suspendisse egestas ut tellus vitae gravida. Curabitur cursus tellus id lobortis laoreet. Integer vulputate convallis arcu, id feugiat purus euismod a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean non dolor eget est luctus pharetra a eu magna.
+            </main>
+            <aside class="grid-side-three-col-r">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium bibendum nunc, eu interdum felis ultrices sit amet. Nam ullamcorper enim vel erat ultricies hendrerit. Proin facilisis commodo efficitur. Etiam vitae metus leo. Donec dictum consectetur leo, quis interdum enim vehicula non. Nulla interdum dui justo, vel dictum nulla sollicitudin at. Nullam eu nisi eu nisl vestibulum tempor. Integer viverra lectus at tortor blandit, id dapibus massa tristique.
+            </aside>
+        </section>
+    </code>
+</pre>
+            <hr>
+            <!-- Images -->
+            <div id="images">
+                <h1>Images</h1>
+                    <p class="body-cp-md">Images can be responsive to fit the parent's width, and also can be customised to be round shaped</p>
+                    <h3>Example of Responsive Image</h3>
+                    <p>You can add class <span class="primary-text-color">img-responsive</span> to make your image fit the width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the image.</p>
+                <div class="image-div">
+                    <img class="img-responsive" src="assets/landscape.jpg" />
+                    <img class="img-round" src="assets/portrait.jpg" />
+                </div>
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="image-div">
+            <img class="img-responsive" src="assets/landscape.jpg" />
+            <img class="img-round" src="assets/portrait.jpg" />
+        </div>
+    </code>
+</pre>
+            <hr>
+            <!-- Input -->
+            <div id="inputs">
+                <h1>Form Components</h1>
+                <p class="body-cp-md">There are form fields listed below and form validation is also styled.</p>
+                <h3>Example of Active form fields</h3>
+                <p>Add <span class="primary-text-color">user-name-label</span> class to labels and <span class="primary-text-color">user-name-input</span> for input element to have a username input.
+                    <br>
+                <p>Add <span class="primary-text-color">password-label</span> class to labels and <span class="primary-text-color">basic-input</span> for input element to have a password input.
+                    <br>
+                <p>Add <span class="primary-text-color">basic-label</span> class to labels and <span class="primary-text-color">basic-input</span> for input element to have a normal input.</p>
+                <div class="input-container">
+                    <div>
+                        <div>
+                            <label for="user-name-input" class="user-name-label"><p><strong>Username</strong></p></label>
+                        </div>
+                        <div>
+                            <input type="text" id="user-name-input"/>
+                        </div>
+                        <p class="success-text"><i class="far fa-check-circle"></i> This username is correct.</p>
+                    </div>
+                    
+                    <div>
+                        <div>
+                            <label for="password-input" class="password-label"><p><strong>Password</strong></p></label>
+                        </div>
+                    <div>
+                            <input type="password" id="password-input"/>
+                    </div>
+                        <p class="fail-text"><i class="fas fa-exclamation-circle"></i> 
+                        This password is incorrect.</p>
+                    </div>
+                    <div>
+                        <label for="basic-input"><p> INPUT TEXT : </p></label>
+                        <input type="text" id="basic-input" placeholder="Search..."/>
+                    </div>
+                </div>
+                <!-- <img class="code-snap-img" src="docs/code-snippets-MARS-UI/inputs.png" alt="input code snippet"> -->
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="input-container">
+            <div>
+                <div>
+                    <label for="user-name-input" class="user-name-label"><p><strong>Username</strong></p></label>
+                </div>
+                <div>
+                    <input type="text" id="user-name-input"/>
+                </div>
+                <p class="success-text"><i class="far fa-check-circle"></i> This username is correct.</p>
+            </div>
+            
+            <div>
+                <div>
+                    <label for="password-input" class="password-label"><p><strong>Password</strong></p></label>
+                </div>
+            <div>
+                    <input type="password" id="password-input"/>
+            </div>
+                <p class="fail-text"><i class="fas fa-exclamation-circle"></i> 
+                This password is incorrect.</p>
+            </div>
+            <div>
+                <label for="basic-input"><p> INPUT TEXT : </p></label>
+                <input type="text" id="basic-input" placeholder="Search..."/>
+            </div>
+        </div>
+    </code>
+</pre>
+
+            <hr>
+            <!-- Lists -->
+            <div id="lists">
+                <h1>Lists</h1>
+                <p class="body-cp-md">Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.</p>
+                <h3>Example of Unordered List with bullets</h3>
+                <p>Add class according to bullet style. Copy html code below and add your desired list items.</p>
+                <div class="list-container">
+                    <div class="list-basic">
+                        <div>
+                            <ul>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ol>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <ol reversed>
+                                <li>List item 1</li>
+                                <li>List item 2</li>
+                                <li>List item 3</li>
+                            </ol>
+                        </div>
+                    </div>
+               
+                    <!-- notification stacks -->
+                    <h3>Example of Notification Stacked List</h3>
+                    <p>This is stacked list without bullets. We can add desired component inside <span class="primary-text-color">"li"</span> element. Check below code for cards in stacked list.</p>
+                    <div class="stacked-notify">
+                        <ul>
+                            <li class="stacked-list">
+                              <img class="stacked-img" src="assets/bag-for-list.jpg" alt="sunglasses & accesories">
+                              <div class="stacked-text">
+                                <h4>Sunglasses, Bags & many more...</h4>
+                                <p>Starting at 199/-</p>
+                                <p>Shop now!</p>
+                                <h5>2 hours ago</h5>
+                              </div>  
+                            </li>
+                            <li class="stacked-list">
+                                <img class="stacked-img" src="assets/bag-for-list.jpg" alt="sunglasses & accesories">
+                                <div class="stacked-text">
+                                  <h4>Sunglasses, Bags & many more...</h4>
+                                  <p>Starting at 199/-</p>
+                                  <p>Shop now!</p>
+                                  <h5>2 hours ago</h5>
+                                </div>  
+                            </li>
+                            <li class="stacked-list">
+                                <img class="stacked-img" src="assets/bag-for-list.jpg" alt="sunglasses & accesories">
+                                <div class="stacked-text">
+                                  <h4>Sunglasses, Bags & many more...</h4>
+                                  <p>Starting at 199/-</p>
+                                  <p>Shop now!</p>
+                                  <h5>2 hours ago</h5>
+                                </div>  
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+<pre>
+    <code class="snippet">
+        <div class="list-container">
+            <div class="list-basic">
+                <div>
+                    <ul>
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ul>
+                </div>
+                <div>
+                    <ol>
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ol>
+                </div>
+                <div>
+                    <ol reversed>
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ol>
+                </div>
+            </div>
+       
+            <!-- notification stacks -->
+            <h3>Example of Notification Stacked List</h3>
+            <p>This is stacked list without bullets. We can add desired component inside <span class="primary-text-color">"li"</span> element. Check below code for cards in stacked list.</p>
+            <div class="stacked-notify">
+                <ul>
+                    <li class="stacked-list">
+                      <img class="stacked-img" src="assets/bag-for-list.jpg" alt="sunglasses & accesories">
+                      <div class="stacked-text">
+                        <h4>Sunglasses, Bags & many more...</h4>
+                        <p>Starting at 199/-</p>
+                        <p>Shop now!</p>
+                        <h5>2 hours ago</h5>
+                      </div>  
+                    </li>
+                    <li class="stacked-list">
+                        <img class="stacked-img" src="assets/bag-for-list.jpg" alt="sunglasses & accesories">
+                        <div class="stacked-text">
+                          <h4>Sunglasses, Bags & many more...</h4>
+                          <p>Starting at 199/-</p>
+                          <p>Shop now!</p>
+                          <h5>2 hours ago</h5>
+                        </div>  
+                    </li>
+                    <li class="stacked-list">
+                        <img class="stacked-img" src="assets/bag-for-list.jpg" alt="sunglasses & accesories">
+                        <div class="stacked-text">
+                          <h4>Sunglasses, Bags & many more...</h4>
+                          <p>Starting at 199/-</p>
+                          <p>Shop now!</p>
+                          <h5>2 hours ago</h5>
+                        </div>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </code>
+</pre>
+            </div>
+            <hr>
+            <!-- MODALS -->
+            <div id="modal">
+                <h1>Modal</h1>
+                <p class="body-cp-md">Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.</p>
+
+                <h3>Example of Modal</h3>
+                <p>You need to have wrapper div <span class="primary-text-color">modal-interstitial</span> class. Inside that, you can wrap content inside <span class="primary-text-color">div.modal-content</span> that you need to show in pop-up.
+                     <br>
+                     Check out below code.
+                </p>
+
+                <section class="modal-container">
+                    <div class="modal-text-container">
+                        <div class="modal-close-container"><span class="modal-close-btn"><i class="fas fa-times"></i></span></div>
+            
+                        <div class="modal-info">
+                        <h2 class="modal-header">Shop with exclusive offers</h2>
+                        <p class="modal-text">White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button closures</p>
+                        </div>
+                        
+                        <div class="modal-btn">
+                        <a href="#" class="btn btn-solid-primary btn-modal-solid">Buy Now</a>
+                        </div>
+                    </div>
+                </section> 
+            </div>
+<pre>
+    <code class="snippet">
+        <section class="modal-container">
+            <div class="modal-text-container">
+                <div class="modal-close-container"><span class="modal-close-btn"><i class="fas fa-times"></i></span></div>
+    
+                <div class="modal-info">
+                <h2 class="modal-header">Shop with exclusive offers</h2>
+                <p class="modal-text">White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button closures</p>
+                </div>
+                
+                <div class="modal-btn">
+                <a href="#" class="btn btn-solid-primary btn-modal-solid">Buy Now</a>
+                </div>
+            </div>
+        </section> 
+    </code>
+</pre>
+            <hr>
+            <!-- NAV -->
+            <div id="nav">
+                <h1>Navigation</h1>
+                <p class="body-cp-md">Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. It is a hamburger menu in medium and small devices</p>
+                <h2 class="h4">Example of Navigation</h2>
+                <nav class="nav-header">
+                    <span class="nav-icon"><i class="fas fa-book-reader"></i></span> 
+                    <div class="nav-main-container"><a class="btn btn-nav-home" href="#">Home </a>
+                    </div>
+                   <div class="nav-items-container">
+                    <a class="btn btn-nav-pricing" href="#">Pricing </a>
+                    <a class="btn btn-nav-faq" href="#">FAQs </a>
+                    <a class="btn btn-nav-about" href="#"> About</a>
+                   </div> 
+                    <img src="assets/avatar.svg" alt="Avatar" class="avatar avatar-sm"/>
+                   
+                </nav>
+            </div>
+<pre>
+    <code class="snippet">
+        <nav class="nav-header">
+            <span class="nav-icon"><i class="fas fa-book-reader"></i></span> 
+            <div class="nav-main-container"><a class="btn btn-nav-home" href="#">Home </a>
+            </div>
+           <div class="nav-items-container">
+            <a class="btn btn-nav-pricing" href="#">Pricing </a>
+            <a class="btn btn-nav-faq" href="#">FAQs </a>
+            <a class="btn btn-nav-about" href="#"> About</a>
+           </div> 
+            <img src="assets/avatar.svg" alt="Avatar" class="avatar avatar-sm"/>
+           
+        </nav>
+    </code>
+</pre>
+            <hr>
+            <!-- Rating -->
+            <div id="rating">
+                <h1>Rating</h1>
+                <p class="body-cp-md">Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.</p>
+                <h3>Example of read-only ratings</h3>
+                <p>There are two types, input read-only and badge</p>
+                <div class="rating-star-container">
+                    <label>
+                        <input class="rating-star-input" type="checkbox" checked>
+                        <i class="far fa-star rating-star-icon"></i>
+                    </label>
+                    <label>
+                        <input class="rating-star-input" type="checkbox" checked>
+                        <i class="far fa-star rating-star-icon"></i>
+                    </label>
+                    <label>
+                        <input class="rating-star-input" type="checkbox" checked>
+                        <i class="far fa-star rating-star-icon"></i>
+                    </label>
+                    <label>
+                        <input class="rating-star-input" type="checkbox">
+                        <i class="far fa-star rating-star-icon"></i>
+                    </label>
+                    <label>
+                        <input class="rating-star-input" type="checkbox">
+                        <i class="far fa-star rating-star-icon"></i>
+                    </label>
+                </div>
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="rating-star-container">
+            <label>
+                <input class="rating-star-input" type="checkbox" checked>
+                <i class="far fa-star rating-star-icon"></i>
+            </label>
+            <label>
+                <input class="rating-star-input" type="checkbox" checked>
+                <i class="far fa-star rating-star-icon"></i>
+            </label>
+            <label>
+                <input class="rating-star-input" type="checkbox" checked>
+                <i class="far fa-star rating-star-icon"></i>
+            </label>
+            <label>
+                <input class="rating-star-input" type="checkbox">
+                <i class="far fa-star rating-star-icon"></i>
+            </label>
+            <label>
+                <input class="rating-star-input" type="checkbox">
+                <i class="far fa-star rating-star-icon"></i>
+            </label>
+        </div>
+    </code>
+</pre>
+            <hr>
+            <!-- Text-utility -->
+            <div id="text-utilities">
+                <h1>Text Utilities</h1>
+                <p class="body-cp-md">Check out below text utilities.</p>
+
+                <h3>Example of Heading text</h3>
+                <p>For heading u can use h1, h2, h3, h4, h5, h6 elements. <br>
+                    The same font-styling is present for class names <span class="primary-text-color">h1, h2, h3, h4, h5, h6</span> class. You can add one of these classes to style the text.</p>
+                <div class="text-utility-container">
+                    <!-- headings -->
+                    <div class="heading-text">
+                    <h1>H1-Heading</h1>
+                    <h2>H2-Heading</h2>
+                    <h3>H2-Heading</h3>
+                    <h4>H2-Heading</h4>
+                    <h5>H2-Heading</h5>
+                </div>
+        
+                    <!-- paragraph-text -->
+                <div class="para-text">
+                    <p class="body-cp-lg">P-Paragraph-body-copy-large</p>
+                    <p class="body-cp-rg">P-Paragraph-body-copy-regular style</p>
+                    <p class="body-cp-md">P-Paragraph-body-copy-medium</p>
+                    <p class="body-cp-sm">P-Paragraph-body-copy-small</p>
+                </div>
+        
+                    <!-- align-texts -->
+                <div class="align-text">
+                    <h4 class="align-left">This is left-aligned text</h4>
+                    <h4 class="align-center">This is center-aligned text</h4>
+                    <h4 class="align-right">This is right-aligned text</h4>
+                </div>
+                <div>
+                    <p class="grey-text">This is a grey text.</p>
+                </div>
+                </div>
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="text-utility-container">
+            <!-- headings -->
+            <div class="heading-text">
+            <h1>H1-Heading</h1>
+            <h2>H2-Heading</h2>
+            <h3>H2-Heading</h3>
+            <h4>H2-Heading</h4>
+            <h5>H2-Heading</h5>
+            </div>
+
+        <!-- paragraph-text -->
+            <div class="para-text">
+            <p class="body-cp-lg">P-Paragraph-body-copy-large</p>
+            <p class="body-cp-rg">P-Paragraph-body-copy-regular style</p>
+            <p class="body-cp-md">P-Paragraph-body-copy-medium</p>
+            <p class="body-cp-sm">P-Paragraph-body-copy-small</p>
+            </div>
+
+        <!-- align-texts -->
+            <div class="align-text">
+            <h4 class="align-left">This is left-aligned text</h4>
+            <h4 class="align-center">This is center-aligned text</h4>
+            <h4 class="align-right">This is right-aligned text</h4>
+            </div>
+            <div><p class="grey-text">This is a grey text.</p></div>
+            </div>
+    </code>
+</pre>
+            <hr>
+            <!--Toast  -->
+            <div id="toast">
+                <h1>Toast</h1>
+                <p class="body-cp-md">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action</p>
+                <h3>Example of Toast</h3>
+                <p>Add <span class="primary-text-color">toast</span> class to wrapper.
+                <div class="toast-container">
+                    <p class="toast doc-toast">This is a toast for my component library.</p>
+                </div>
+            </div>
+<pre>
+    <code class="snippet">
+        <div class="toast-container">
+            <p class="toast doc-toast">This is a toast for my component library.</p>
+        </div>
+    </code>
+</pre>
+            <hr>
+</main>
+<script src="/js/main.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script> hljs.highlightAll(); </script>
+</body>
+</html>

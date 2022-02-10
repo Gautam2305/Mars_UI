@@ -1,7 +1,4 @@
-/* .fa-star{
-    color: var(--st-yellow);
-}
-{
+.fa-star{
     color: var(--st-yellow);
 }
 input[type=checkbox]{
@@ -9,13 +6,10 @@ input[type=checkbox]{
 }
 input[type=checkbox]:checked{
     color: var(--st-yellow);
-} */
+}
 .rating-star-input{
     width: 0;
     margin: 0;
     height: 0;
     opacity: 0;
-}
-.rating-star-input:checked + .rating-star-icon{
-    color: #ffb400;
 }

@@ -1,0 +1,37 @@
+/* two-column-grid */
+.grid-two-col-box{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin: 2rem;
+    border: 2px groove var(--st-black);
+}
+.grid-side-two-col{
+    overflow-y: auto;
+    height: 20rem;
+    margin-top: 2.5rem;
+    padding: 5px;
+}
+.grid-main-nav-col{
+    background-color: var(--st-primary-two);
+    padding: 5px;
+    color: var(--st-secondary-three);
+}
+.grid-main-two-col{
+    border: 2px solid var(--st-black);
+}
+/* grid-three-column */
+.grid-three-col-box{
+    display: grid;
+    grid-template-columns: 250px 1fr 200px;
+    margin: 2rem;
+    border: 2px groove var(--st-black);
+}
+.grid-main-three-col{
+    border: 2px solid var(--st-black);
+}
+.grid-side-three-col, .grid-side-three-col-r{
+    overflow-y: auto;
+    height: 20rem;
+    margin-top: 2.5rem;
+    padding: 5px;
+}
