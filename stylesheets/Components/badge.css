@@ -63,7 +63,7 @@ body{
     height: 1rem;
     width: 1rem;
     top: 0.10rem;
-    left: 4rem;
+    left: 4.5rem;
 }
 .status-badge-online{
     background-color: var(--st-mid-green);
