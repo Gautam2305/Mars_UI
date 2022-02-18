@@ -164,11 +164,12 @@
                                 <span class="status-badge badge-md status-badge-online"></span>
                             </div>
                         </div>
-                        <div class="badge-container">
+                         <div class="badge-container badge-container-sm">
                             <div class="avatar avatar-sm">
                                 <img class="avatar-img" src="assets/avatar-2.svg" alt="avatar">
-                                <span class="status-badge badge-sm status-badge-offline"></span>
                             </div>
+                            <span class="status-badge badge-sm status-badge-offline"></span>
+                        </div>
                             
 <pre>
     <code class="snippet">
@@ -178,11 +179,11 @@
                 <span class="status-badge badge-md status-badge-online"></span>
             </div>
         </div>
-        <div class="badge-container">
+         <div class="badge-container badge-container-sm">
             <div class="avatar avatar-sm">
                 <img class="avatar-img" src="assets/avatar-2.svg" alt="avatar">
-                <span class="status-badge badge-sm status-badge-offline"></span>
             </div>
+            <span class="status-badge badge-sm status-badge-offline"></span>
         </div>
     </code>
 </pre>
@@ -190,32 +191,36 @@
                 </div>  
                         <h3 class="h4">Example of Icon & Button Badge</h3>
                         <p>We have 2 types of text badges that can be integrated with text. Badge with rounded edges and square edges. Font size of badge text is in <span class="primary-text-color">em</span>. It will change as per the parent element's font-size.</p>
-                        <div class="badge-img-container">
-                            <div class="btn btn-icon-primary">
-                                <i class="fas fa-home"></i>
+                        <div class="badge-container badge-container-icon">
+                            <div class="btn btn-icon-primary btn-badge">
+                                <div class="badge-icon-container">
+                                    <i class="fas fa-home"></i>
+                                </div>
                                 <span class="status-badge badge-icon-home status-badge-home"></span>
                             </div>
                         </div>
-                        <div class="badge-img-container">
-                            <div class="btn btn-solid-primary btn-solid-doc">
+                        <div class="badge-container badge-container-btn">
+                            <div class="btn btn-solid-primary btn-badge">
                                 Badge
-                                <span class="status-badge badge-icon-button status-badge-button"></span>
                             </div>
+                            <span class="status-badge badge-icon-button status-badge-button"></span>
                         </div>
                     
 <pre>
     <code class="snippet">
-        <div class="badge-img-container">
-            <div class="btn btn-icon-primary">
-                <i class="fas fa-home"></i>
+        <div class="badge-container badge-container-icon">
+            <div class="btn btn-icon-primary btn-badge">
+                <div class="badge-icon-container">
+                    <i class="fas fa-home"></i>
+                </div>
                 <span class="status-badge badge-icon-home status-badge-home"></span>
             </div>
         </div>
-        <div class="badge-img-container">
-            <div class="btn btn-solid-primary btn-solid-doc">
+        <div class="badge-container badge-container-btn">
+            <div class="btn btn-solid-primary btn-badge">
                 Badge
-                <span class="status-badge badge-icon-button status-badge-button"></span>
             </div>
+            <span class="status-badge badge-icon-button status-badge-button"></span>
         </div>
     </code>
 </pre>
