@@ -5,9 +5,11 @@ body{
 .avatar-img{
     border-radius: 50%;
 }
+.badge-container{
+    position: relative;
+}
 /* avatars */
- .avatar{
-    border-radius: 50%;
+.avatar{
     border: 2px solid var(--st-white);
     display: flex;
     position: relative;
@@ -54,14 +56,14 @@ body{
 .badge-icon-home{
     height: 0.75rem;
     width: 0.75rem;
-    left: 27.25rem;
-    bottom: 1.5rem;
+    top: 0.5rem;
+    left: 1.25rem;
 }
 .badge-icon-button{
     height: 1rem;
     width: 1rem;
-    left: 29rem;
-    bottom: 3rem;
+    top: 0.10rem;
+    left: 4.5rem;
 }
 .status-badge-online{
     background-color: var(--st-mid-green);
