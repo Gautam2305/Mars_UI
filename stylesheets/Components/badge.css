@@ -2,9 +2,6 @@
 body{
     display:flex;
 }
-.badge-container{
-    display: relative;
-}
 .avatar-img{
     border-radius: 50%;
 }
@@ -13,6 +10,7 @@ body{
     border-radius: 50%;
     border: 2px solid var(--st-white);
     display: flex;
+    position: relative;
 }
 .avatar-md{
     width: 6.25rem;
@@ -21,6 +19,9 @@ body{
 .avatar-sm{
     width: 3rem;
     height: 3rem;
+}
+.btn-badge{
+    position: relative;
 }
 .btn-icon-primary{
     color: var(--st-secondary-two);
@@ -48,25 +49,19 @@ body{
     height: 0.75rem;
     min-width: 0.75rem;
     top: 2rem;
-    left: 8.5rem;
-}
-.badge-icon{
-    height: 0.75rem;
-    width: 0.75rem;
-    top: 0.5rem;
-    left: 10.7rem;
+    left: 2rem;
 }
 .badge-icon-home{
     height: 0.75rem;
     width: 0.75rem;
-    top: 0.5rem;
-    left: 13rem;
+    left: 27.25rem;
+    bottom: 1.5rem;
 }
 .badge-icon-button{
     height: 1rem;
     width: 1rem;
-    top: 1rem;
-    left: 19rem;
+    left: 29rem;
+    bottom: 3rem;
 }
 .status-badge-online{
     background-color: var(--st-mid-green);
