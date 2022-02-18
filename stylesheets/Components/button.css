@@ -50,4 +50,5 @@
     position: absolute;
     left: 65rem;
     top: 24rem;
+    z-index: 2;
 }
