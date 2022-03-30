@@ -35,20 +35,13 @@
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
 }
-.floating-action-button{
-    position: relative;
-}
 .btn-floating{
     text-decoration: none;
-    display: block;
-    padding: 0.1rem 1rem;
+    padding: 0.25rem 1rem;
     background-color: var(--st-secondary-two);
     color: var(--st-white);
     font-size: 2rem;
     font-weight: 700;
+    margin: 1rem;
     border-radius: 50%;
-    position: absolute;
-    left: 65rem;
-    top: 24rem;
-    z-index: 2;
 }
